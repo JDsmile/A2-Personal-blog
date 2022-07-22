@@ -9,10 +9,7 @@
 body{
   
     width: 1000px;
-    margin: 0 auto;
-
-
-
+  
 }
 main{
     margin-bottom: 3em;
@@ -20,7 +17,6 @@ main{
 img{
     width: 20px;
 }
-
 
 .container{
     display: flex;
@@ -83,9 +79,6 @@ footer{
     background-color: rgba(154, 146, 146, 0.087);
     padding: 3em;
     text-align: center;
-
- 
-   
 }
 
 footer >p{
