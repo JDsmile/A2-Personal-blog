@@ -5,3 +5,118 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+ 
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container{
+    padding: 2em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.header-search-icon{
+    width: 20px;
+}
+.header-subject{
+    color: gray;
+}
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+    gap:5em;
+
+}
+.blog-container >* {
+    max-width: 520px;
+}
+.blog-time{
+    color: gray;
+    margin-bottom: 1.25em;
+}
+.blog-author{
+    color: blue;
+}
+.blog-content,
+.blog-intro{
+    margin-bottom: 1.25em;
+}
+.blog-intro{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1em;
+}
+.blue-text{
+    color: blue;
+}
+.dark-text{
+    font-weight: 700;
+}
+.p-1{
+    padding-bottom: 1em;
+}
+.m-1{
+    margin-bottom: 0.25em;
+}
+
+.blog-border-content{
+    border: 1px solid gray;
+    margin-bottom: 1em;
+}
+.blog-sub-section-title{
+    margin-bottom: 0.5em;
+}
+
+.blog-content-list{
+    padding-left: 50px;
+    margin-bottom: 1em;
+
+}
+.blog-btns{
+    display: flex;
+    gap: 10px;
+}
+
+.blog-btns >*{
+    padding: 0.5em 1em;
+    border-radius:2rem;
+    background-color: transparent;
+    border: none;
+    border: 2px solid gray;
+    color: gray;
+}
+.blue-btn{
+    color: blue;
+    border-color: blue;
+}
+
+.blog-right{
+    max-width: 300px;
+}
+.blog-archives-list,
+.external-links{
+    margin-bottom: 2em;
+    list-style-type: none;
+}
+
+
+.blog-about{
+    padding: 1em;
+    background-color: lightgray;
+    margin-bottom: 2em;
+}
+.link-title{
+    margin-bottom: 0.25em;
+}
+a:visited{
+    color: blue;
+}
+footer{
+    background-color: rgba(154, 146, 146, 0.087);
+    padding: 3em;
+    text-align: center;
+}
